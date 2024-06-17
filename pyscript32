@@ -1,0 +1,18 @@
+from collections import OrderedDict
+
+# Create an OrderedDict
+ordered_dict = OrderedDict()
+ordered_dict['Laptop'] = 40
+ordered_dict['Desktop'] = 45
+ordered_dict['Mobile'] = 35
+ordered_dict['Charger'] = 25
+
+# Reverse the order of the OrderedDict
+reversed_dict = OrderedDict(reversed(list(ordered_dict.items())))
+
+# Print the reversed OrderedDict
+print("Original OrderedDict:")
+print(ordered_dict)
+
+print("\nReversed OrderedDict:")
+print(reversed_dict)
